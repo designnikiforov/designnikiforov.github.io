@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carvin Support</title>
+<style>
+  :root{
+    --bg:#fbfaf8;
+    --text:#211f1c;
+    --text-secondary:#5b574f;
+    --border:#e5e2db;
+    --link:#8a5a2b;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#17150f;
+      --text:#f2efe8;
+      --text-secondary:#b3ad9f;
+      --border:#33302a;
+      --link:#e0a869;
+    }
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.6;
+  }
+  main{
+    max-width:640px;
+    margin:0 auto;
+    padding:4rem 1.5rem 6rem;
+  }
+  h1{
+    font-size:1.75rem;
+    font-weight:700;
+    margin:0 0 0.4rem;
+    letter-spacing:-0.01em;
+  }
+  .lede{
+    color:var(--text-secondary);
+    font-size:1rem;
+    margin:0 0 3rem;
+  }
+  h2{
+    font-size:1.05rem;
+    font-weight:700;
+    margin:2.6rem 0 0.8rem;
+    padding-top:1.6rem;
+    border-top:1px solid var(--border);
+  }
+  section:first-of-type h2{
+    border-top:none;
+    padding-top:0;
+  }
+  p, li{
+    font-size:1rem;
+    color:var(--text);
+  }
+  p{ margin:0 0 1rem; }
+  ul{ margin:0 0 1rem; padding-left:1.3rem; }
+  li{ margin:0 0 0.4rem; }
+  a{ color:var(--link); }
+  strong{ font-weight:600; }
+  .contact{
+    margin-top:4rem;
+    padding-top:1.6rem;
+    border-top:1px solid var(--border);
+  }
+  .contact h2{ margin-top:0; padding-top:0; border-top:none; }
+  footer{
+    margin-top:4rem;
+    padding-top:1.5rem;
+    border-top:1px solid var(--border);
+    color:var(--text-secondary);
+    font-size:0.85rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Carvin Support</h1>
+  <p class="lede">Answers to common questions. Didn&rsquo;t find yours &mdash; email us below and we&rsquo;ll help.</p>
+
+  <section>
+    <h2>How do I restore my Pro subscription on a new device?</h2>
+    <p>Carvin has no account system of its own &mdash; your subscription is tied to your Apple ID, not to a login. Sign in to the App Store with the same Apple ID you subscribed with, open Carvin, and tap <strong>Restore Purchases</strong> on the Pro screen (Settings &rarr; Carvin Pro).</p>
+  </section>
+
+  <section>
+    <h2>My vehicles and records aren&rsquo;t showing up on my other device</h2>
+    <p>Carvin syncs through your own private iCloud account, not through a server of ours. Check that:</p>
+    <ul>
+      <li>Both devices are signed in with the <strong>same Apple ID</strong></li>
+      <li>iCloud is turned on for Carvin (Settings app &rarr; your name &rarr; iCloud)</li>
+      <li>Both devices have an internet connection</li>
+    </ul>
+    <p>Sync can take a minute or two after you make a change.</p>
+  </section>
+
+  <section>
+    <h2>How do I cancel or manage my subscription?</h2>
+    <p>Subscriptions are billed and managed entirely by Apple, not by Carvin. On your iPhone: <strong>Settings app &rarr; your name &rarr; Subscriptions &rarr; Carvin</strong>, or from inside the app: Settings &rarr; Carvin Pro &rarr; Manage Subscription.</p>
+  </section>
+
+  <section>
+    <h2>How do I delete my data?</h2>
+    <p>Deleting a vehicle in Carvin permanently deletes everything linked to it &mdash; records, documents, photos &mdash; and this can&rsquo;t be undone. To remove everything at once, delete the app from your device; you can also clear its iCloud data from Settings app &rarr; your name &rarr; iCloud &rarr; Manage Account Storage.</p>
+  </section>
+
+  <section>
+    <h2>Can I change the currency, distance units, or language?</h2>
+    <p>Yes &mdash; all three are in the app&rsquo;s own Settings and can be changed at any time without losing any data.</p>
+  </section>
+
+  <section class="contact">
+    <h2>Still need help?</h2>
+    <p>Email us at <a href="mailto:carvin.app.ai@gmail.com">carvin.app.ai@gmail.com</a> and we&rsquo;ll get back to you.</p>
+  </section>
+
+  <footer>Carvin</footer>
+</main>
+</body>
+</html>
